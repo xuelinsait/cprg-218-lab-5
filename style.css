@@ -187,3 +187,27 @@ body {
   .back-button:hover {
     background: #e76868;
   }
+
+
+  #show-fact {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff7b7b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  #show-fact:hover {
+    background-color: #e76868;
+  }
+  
+  #fact-text {
+    margin-top: 15px;
+    padding: 10px;
+    background: #fff3f3;
+    border-left: 4px solid #ff7b7b;
+    border-radius: 5px;
+  }

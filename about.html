@@ -35,11 +35,23 @@
     <p>We’re not just selling postcards—we’re delivering joy, love, and memories. That’s why we put our heart into every piece we create.</p>
 
     <a href="index.html" class="back-button">← Back to Home</a>
+
+    <h2>Fun Fact</h2>
+<button id="show-fact">Show Fun Fact</button>
+<p id="fact-text" style="display:none;">
+  Did you know? Every PostPal postcard is printed on 100% recycled paper and hand-packed by our team.
+</p>
+
   </section>
 
   <footer class="footer">
     <p>Contact us: hello@postpal.com | © 2025 PostPal</p>
   </footer>
-
+  <script>
+    document.getElementById("show-fact").addEventListener("click", function() {
+      const fact = document.getElementById("fact-text");
+      fact.style.display = (fact.style.display === "none") ? "block" : "none";
+    });
+    </script>
 </body>
 </html>
